@@ -14,5 +14,5 @@ response = requests.get(request_url)
 
 if response.status_code == 200:
     data = response.json()
-    weather = 
+    weather = weather,
 
